@@ -1,10 +1,14 @@
 import React from "react";
+import Carousel from "../Components/Carousel";
 import CardComponent from "../Component/Card";
 
-const LandingPage = () => {
-    return <div>
-        <CardComponent />
+function LandingPage() {
+  return (
+    <div>
+      <Carousel />
+      <CardComponent />
     </div>
+  );
 }
 
 export default LandingPage;
