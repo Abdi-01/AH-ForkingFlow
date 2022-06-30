@@ -1,5 +1,5 @@
-import Carousel from "../Components/Carousel";
 import React from "react";
+import Carousel from "../Components/Carousel";
 
 function LandingPage() {
   return (
@@ -10,3 +10,4 @@ function LandingPage() {
 }
 
 export default LandingPage;
+
